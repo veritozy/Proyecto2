@@ -1,0 +1,47 @@
+/*Selector universal*/
+/**{
+    background-color: plum;
+}*/
+
+/*Selector de tipo*/
+body{
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 12px;
+}
+
+/*Selector de clase*/
+.titulo1{
+    color:#FF4545;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+/*Selector de id*/
+#parrafo{
+    color: #000B58;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.barraNavegacion{
+    background-color: #81689D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navEnlace{
+    display: inline-block;
+    color: #2E073F;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navEnlace:hover{
+    background-color:#FF4545;
+}
+

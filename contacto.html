@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h2>Fornulario de Registro</h2>
+    <br>
+    <form action="#">
+        <label for="idNombre">Ingrese su nombre</label>
+        <br>
+        <input type="text" name="nombre" id="idNombre" placeholder="nombre" required>
+        <br>
+        <label for="idApellido">Ingrese su apellido</label>
+        <br>
+        <input type="text" name="apellido" id="idApellido" placeholder="apellido" required>
+        <br>
+        <label for="idEmail">Ingrese su email</label>
+        <br>
+        <input type="email" name="email" id="idEmail" placeholder="email" required>
+        <br>
+        <label for="idPassword">Ingrese su contraseña</label>
+        <br>
+        <input type="password" name="password" id="idPassword" placeholder="contraseña" required>
+        <br>
+        <label>Seleccione su género</label>
+        <br>
+        <label for="idMasculino">Masculino</label>
+        <br>
+        <input type="radio" name="genero" id="idMasculino">
+        <br>
+        <label for="idFemenino">Femenino</label>
+        <br>
+        <input type="radio" name="genero" id="idFemenino">
+        <br>
+        <label>Nacionalidad</label>
+        <br>
+        <select name="pais" id="idPais">
+            <option value="Ecuador">Ecuador</option>
+            <option value="Mexico">México</option>
+            <option value="Chile">Chile</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+        <br>
+        <label>Seleccione su fotografía</label>
+        <br>
+        <input type="file" name="fotografia">
+        <br>
+        <label>Seleccione su profesión</label>
+        <br>
+        <input type="checkbox" name="profesion">
+            Desarrollador de Software
+        <input type="checkbox" name="profesion">
+            Estilista
+        <input type="button" value="Enviar">
+        <br>
+        <br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
